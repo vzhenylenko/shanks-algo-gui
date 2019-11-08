@@ -1,3 +1,5 @@
+# author: Viacheslav Zhenylenko
+
 from math import sqrt, ceil
 from itertools import count, islice
 from tkinter import Tk, BOTH, X, LEFT, Button
