@@ -75,15 +75,7 @@ class ShanksApp:
 
             try:
                 self.frame4.destroy()
-            except:
-                pass
-
-            try:
                 self.frame5.destroy()
-            except:
-                pass
-
-            try:
                 self.frame6.destroy()
             except:
                 pass
@@ -118,7 +110,7 @@ class ShanksApp:
         self.frame3 = Frame(self.frame)
         self.frame3.pack(fill=X)
 
-        self.lbl3 = Label(self.frame3, text="Group order p", width=18)
+        self.lbl3 = Label(self.frame3, text="Prime number p", width=18)
         self.lbl3.pack(side=LEFT, padx=20, pady=5)
 
         self.entry_p = Entry(self.frame3)
