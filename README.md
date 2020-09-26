@@ -1,13 +1,17 @@
 # Overview
-GUI implementation with tkinter of ["Baby-step giant-step algorithm"](https://en.wikipedia.org/wiki/Baby-step_giant-step) for [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problem (logarithm in arbitrary group) computation. Discrete logarithms
- is important concept in public-key cryptography and in fact several important algorithms in public-key cryptography base their security on the assumption that the discrete logarithm problem over carefully chosen groups has no efficient solution.
+GUI implementation of "Baby-step giant-step" or Shank's [algorithm](https://en.wikipedia.org/wiki/Baby-step_giant-step) for [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) 
+problem (logarithm in arbitrary group) with Tkinter python library. Dicrete logarithm is an important concept in the public-key cryptography. 
+In fact, several important algorithms in public-key cryptography base their security on the assumption 
+that the discrete logarithm problem over carefully chosen groups has no efficient solution. 
+Note, that presented algorithm is not efficient enough for attacks on crypto protocols.
 
-This tool was created for *educational purposes* for interactive step-by-step calculation of dicrete logarithm in a given cyclic group. (note, however, that this algorithm is not efficient enough for crypto-attacks)
+This tool was created for *educational purposes* for university or college students. 
+Interactive step-by-step calculation of dicrete logarithm in cyclic group, specified by user. 
 
 # Installation
 You must have Python version >= 3.6 installed.
 
-After you installed Python clone this github repo:
+After you installed Python, clone this github repo:
 `git clone https://github.com/vzhenylenko/shanks-gui` 
 
 Run script:
@@ -33,6 +37,7 @@ If some of conditions are not satisfied, application prompt list of errors.
 #### Individual steps updates
 After validation of a, b, p app enters to algorithm view. By clicking "Previous Step" or
 "Next Step" you could navigate across steps in the algorithm.
+
 <img src="images/algo.png" width="400"/> 
 
 #### Restart & Exit
