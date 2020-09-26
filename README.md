@@ -1,6 +1,6 @@
 # Overview
 GUI implementation of "Baby-step giant-step" or Shank's [algorithm](https://en.wikipedia.org/wiki/Baby-step_giant-step) for [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) 
-problem (logarithm in arbitrary group) with Tkinter python library. Dicrete logarithm is an important concept in the public-key cryptography. 
+problem (logarithm in arbitrary group) with Tkinter Python library. Dicrete logarithm is an important concept in the public-key cryptography. 
 In fact, several important algorithms in public-key cryptography base their security on the assumption 
 that the discrete logarithm problem over carefully chosen groups has no efficient solution. 
 Note, that presented algorithm is not efficient enough for attacks on crypto protocols.
